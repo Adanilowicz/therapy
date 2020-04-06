@@ -522,7 +522,7 @@ a.btn:hover
 .portrait
 {
 	height: 375px; 
-	transform: rotateZ(90deg);
+	transform: ;
 	padding: 10%;
 	margin:auto;
 	
