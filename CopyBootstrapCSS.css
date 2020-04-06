@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+
+.header
+{
+	height: 100vh;
+	
+	}
+.navbar-style
+{
+	box-shadow: 0 5px 10px #efefef;
+	text-transform: uppercase;
+}
+
+.logo
+{
+	height: 48px;
+	padding: 2px 10 px;
+	
+}
+
+.icon-bar
+{
+	background: darkorange;
+	
+}
+
+li a
+{
+	color:#000000
+}
+
+.big-text
+{
+	font-size: 40px;
+	font-weight: 500;
+	margin: 20px 0;
+	color: #FF9900;
+	
+}
+
+a.btn
+{
+	margin: 30px 10px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+
+a.btn-first
+{
+	background-color: #FF9900;
+	color: #FFFFFF;
+	
+}
+	
+a.btn-second
+{
+	background: transparent;
+	border: 1px solid #FF9900;
+	color: #000000;
+}
+	 
+a.btn:hover
+{
+	background: #FF9900;
+	border: none;
+	color:#FFFFFF;
+	box-shadow: 5px 5px 10 px #999;
+	transition: .3s;
+	
+	
+}
+
+.banner-info, .banner-image
+{
+
+	margin: 30px 0;
+
+}
+.img-responsive
+{
+	width: auto;
+	padding: 5px; 
+	margin: 30px;
+	margin-bottom: 50px;
+
+}
+
+.header-2
+	{
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 6%;
+
+	}
+.logo-text
+{
+	font-size:16px;
+
+
+}
+
+.header-ul ul li
+{
+	margin: 5px 10px;
+}
+
+.header-ul 
+{
+	margin-left: 20px;
+	
+}
+	
+.unstuck
+{
+	font-family: "Southern Aire Personal Use Only", "Over the Rainbow",;
+	color:#9900CC;
+	font-style:italic;
+	
+}
+/*----------------------services section-----------------------*/
+
+#services
+{
+	padding: 5px 0;
+	background-color:#33FF99;
+}
+.service-img
+{
+	width: 100px;
+	margin-top: 20px;
+	
+}
+
+
+#services h4
+{
+	padding: 5px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	
+}
+
+
+.title::before
+{
+	content: '';
+	background-color:#333333;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(50px);
+	
+}
+	
+
+.title::after
+{
+	content: '';
+	background-color: #333333;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(3px);
+	
+}
+#services .btn-primary
+{
+	box-shadow: none;
+	padding:8p 25px;
+	border: none;
+	border-radius: 20px;
+	background-color: #FF9900;
+	color: #FFFFFF; 
+	margin-bottom: 20px;
+
+}
+
+.service-ul ul
+{
+	text-align:left;
+	margin-left: 40px;
+
+}
+
+
+/*----------------------issues section-----------------------*/
+
+#issues
+
+{
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color:#FF99FF;
+}
+
+
+ 
+
+
+.issues-title
+
+{
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 8%;
+	
+}
+
+
+#issues ul li
+{
+	margin: 5px 10px;
+}
+
+#issues ul
+{
+	margin-left: 20px;
+	
+}
+
+
+.img-fluid
+{
+	width: 300px;
+	margin: 10%;
+}
+
+
+
+
+
+/*----------------------issues section-----------------------*/
+
+
+#recovery
+{
+
+	margin: 100px 0;
+}
+
+.testimonials
+
+{
+	border-left: 4px solid #FF6600;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.testimonials img
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 10px; 
+	
+}
+.user-details
+{
+	display: inline-block;
+	font-size: 12px:
+
+}
+
+/*----------------------social media section section-----------------------*/
+
+#social-media
+{
+	background: #CCCC00;
+	padding: 50px 0; 
+	
+}
+
+#social-media p
+{
+	font-size: 36px;
+	font-weight: 450;
+
+}
+.social-icons img
+{
+	width: 70px;
+	transition: 0.5s;
+
+}
+.social-icons a:hover img
+{
+	transform: translateY(-10px);
+}
+
+
+
+
+/*----------------------footer section-----------------------*/
+
+#footer
+{
+	background-color:#9900FF
+	
+}
+
+.footer-img
+{
+	width:100%;
+}
+
+.footer-box
+{
+	padding: 20px;
+}
+
+.footer-box img
+{
+	width:100px;
+	margin-bottom: 20px;
+
+}
+
+.footer-font 
+{
+	color: #FFFFFF;
+}
+
+.fa fa-map-marker 
+{
+	color: #FFFFFF;
+}
+
+.fa fa-phone 
+{
+	color: #FFFFFF;
+}
+
+.fa fa-envelope 
+{
+	color: #FFFFFF;
+	margin: 7px;
+}
+
+.footer-box .form-control
+
+{
+	box-shadow: none;
+	border: none;
+	border-radius: 0; 
+	margin-top: 25px;
+	max-width: 250px;
+
+}
+
+
+.footer-box .btn-primary
+
+{
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-color: #CCCC00;
+	
+}
+
+
+
+.copyright
+{
+	margin-bottom: 0px;
+	padding: 20px;
+	color:#FFFFFF;
+	text-align: center;
+}

@@ -1,0 +1,613 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+
+.header
+{
+	height: ;
+	
+	}
+.navbar-style
+{
+	box-shadow: 0 5px 10px #efefef;
+	text-transform: uppercase;
+}
+
+.logo
+{
+	height: 48px;
+	padding: 2px 10px;
+	
+}
+
+.logo-a
+{
+	color:#000000;
+}
+
+.icon-bar
+{
+	background: darkorange;
+	
+}
+
+li a
+{
+	color:#000000
+}
+
+.big-text
+{
+	font-size: 40px;
+	font-weight: 500;
+	margin: 20px 0;
+	color: #FF9900;
+	
+}
+
+a.btn
+{
+	margin: 30px 10px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+
+a.btn-first
+{
+	background-color: #FF9900;
+	color: #FFFFFF;
+	
+}
+	
+a.btn-second
+{
+	background: transparent;
+	border: 1px solid #FF9900;
+	color: #000000;
+}
+	 
+a.btn:hover
+{
+	background: #FF9900;
+	border: none;
+	color:#FFFFFF;
+	box-shadow: 5px 5px 10 px #999;
+	transition: .3s;
+	
+	
+}
+
+.banner-info, .banner-image
+{
+
+	margin: 0px 0;
+
+}
+.img-responsive
+{
+	width: auto;
+	padding: 5px; 
+	margin: 30px;
+	margin-bottom: 50px;
+
+}
+
+.header-2
+	{
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 6%;
+
+	}
+.logo-text
+{
+	
+	font-size:16px;
+	float:  ;
+	padding: 5px 5px;
+	margin-top: 3px ;
+	margin-bottom: 0px; 
+	font-weight: 500;
+	padding-bottom: 0px;
+
+}
+
+.head-image
+{
+	
+	height: 120px;
+	padding: 5px 10 px;
+	margin-bottom: 15px;
+
+}
+
+.heart
+{
+	
+	height: 130px;
+	float:right;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	margin-right:  ;
+	
+}
+
+.header-ul ul li
+{
+	margin: 5px 10px;
+}
+
+.header-ul 
+{
+	margin-left: 20px;
+	float:;
+	
+}
+	
+.unstuck
+{
+
+	color:#9900CC;
+	font-weight:500;	
+}
+
+.summary-bar
+{
+	background-color:;
+	margin:auto;
+	
+	
+	
+}
+
+.summary-text
+{
+	font-size:8px;
+	font-weight:;
+	color:#CCCCCC;
+	font-style:oblique;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	float:  ;
+	padding: 0px 5px;
+	margin-left:0;
+	
+	
+
+}
+/*----------------------services section-----------------------*/
+
+#services
+{
+	padding: 5px 0;
+	background-color:#fafafa;
+	
+}
+.service-img
+{
+	width: 150px;
+	margin-top: 34px;
+	margin-bottom: 5px;
+	
+}
+
+.value-sign
+
+{
+	width: 130px;
+	margin-top: 65px;
+	margin-bottom: 15px;
+}
+
+.services-text
+
+{
+	text-align:left;
+	font-size:16px;
+	font-weight:460;
+}
+
+#services h4
+{
+	padding: 5px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	
+}
+
+
+
+}
+#services .btn-primary
+{
+	box-shadow: none;
+	padding:8p 25px;
+	border: none;
+	border-radius: 20px;
+	background-color: #FF9900;
+	color: #FFFFFF; 
+	margin-bottom: 20px;
+
+}
+
+.service-ul
+{
+	text-align:left;
+	margin-left: 50px;
+
+}
+
+
+/*----------------------psychotherapy section-----------------------*/
+
+#issues
+
+{
+	padding-bottom: 25px;
+	padding-top: ;
+	background-color:#FFFFFF;
+}
+
+
+ 
+
+
+.issues-title
+
+{
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 8%;
+	
+}
+
+
+#issues ul li
+{
+	margin: 5px 10px;
+}
+
+#issues ul
+{
+	margin-left: 20px;
+	
+}
+
+
+.img-fluid
+{
+	
+	align: center;
+}
+
+
+
+.therapy-text-2
+{
+	margin-top: ;
+	
+}
+
+.head-img
+{
+	height: 50px;
+	margin: 0 10px; 
+	float:left;
+	display: inline;
+
+}
+.eyes
+{
+	width: 60px;
+	margin: 0 5px; 
+	float:left;
+	display: inline;
+
+	
+}
+.therapy-h
+{
+	
+	
+}
+/*----------------------Recovery Management section-----------------------*/
+
+
+#recovery
+{
+
+	margin: 20px 0;
+}
+
+.recovery-head
+{
+	font-size:24px;
+	font-weight:500;
+	margin-left: 15px;
+}
+.testimonials
+
+{
+	border-left: 4px solid #FF6600;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.testimonials img
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 10px; 
+	
+}
+
+.mgmt-pad
+{
+	margin: 10px 10px;
+}
+
+.user-details
+{
+	display: inline-block;
+	font-size: 12px:
+
+}
+
+.cheese
+{
+	width: 10%;
+	
+	
+}
+
+.cheesehead
+
+{
+	margin-top: 2%;
+}
+
+.order-list
+{
+	margin-left: 30px;
+
+}
+
+.help-list
+
+{
+	margin-left: 30px;
+	font-size:16px;
+	font-weight: 400;
+}
+
+.help-text
+
+{
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+.citation
+{
+	font-size:10px;
+	font-style:italic;
+}
+
+.fa-hospital-o
+
+.mouse
+{
+	
+
+}
+
+/*----------------------Working With Me section-----------------------*/
+#working
+{
+	background:#e3e3e3;
+	padding: 50px 0;
+	
+}
+
+.schedule
+{
+	font-size:24px;
+	font-weight:500;
+	margin: 3%;
+
+}
+.btn-primary
+{
+	box-shadow: none;
+	padding:10px 25px;
+	border: none;
+	border-radius: 40px;
+	background-color:#00FF33;
+	color: #FFFFFF; 
+	margin-bottom: 20px;
+	
+}
+
+.hyperemail
+{
+	
+	font-color: #FFFFFF;
+	
+	
+}
+
+.rates
+{
+	text-align:left;
+	margin: 4%;
+}
+
+
+.fa fa-phone rates
+{
+
+}
+
+.rate-icons
+{
+	margin-top: 5px;
+	
+}
+.rate-icons img
+{
+	width: 70px;
+	transition: 0.5s;
+	padding: 5px 5px;
+	
+	
+	
+	
+
+}
+.rate-icons a:hover img
+{
+	transform: translateY(-10px);
+}
+
+
+/*----------------------about section section-----------------------*/
+
+#about
+{
+	background:#ee6f57;
+	padding: 50px 0; 
+	
+}
+
+
+
+.about-text 
+{
+	font-size: 16px;
+	font-weight: 450;
+	margin-top: 10px;
+	text-align: left; 
+
+}
+
+.social-icons
+{
+	margin-top: 20px;
+}
+.social-icons img
+{
+	width: 70px;
+	transition: 0.5s;
+
+}
+.social-icons a:hover img
+{
+	transform: translateY(-10px);
+}
+
+
+.portrait
+{
+	height: 375px; 
+	transform: rotateZ(90deg);
+	padding: 10%;
+	margin:auto;
+	
+	
+
+}
+
+
+
+/*----------------------footer section-----------------------*/
+
+#footer
+{
+	background-color:#cb3737;
+	
+}
+
+
+
+
+.footer-box
+{
+	padding: 10px 10px;
+	margin: ;
+}
+
+.footer-box img
+{
+	width:100px;
+	margin: ;
+	
+
+}
+
+.footer-font 
+{
+	color: #FFFFFF;
+}
+
+.fa fa-map-marker 
+{
+	color: #FFFFFF;
+}
+
+.fa fa-phone 
+{
+	color: #FFFFFF;
+}
+
+.fa fa-envelope 
+{
+	color: #FFFFFF;
+	margin: 7px;
+}
+
+.footer-box .form-control
+
+{
+	box-shadow: none;
+	border: none;
+	border-radius: 0; 
+	margin-top: 10px;
+	max-width: 250px;
+
+}
+
+
+.footer-box .btn-primary
+
+{
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-color: #CCCC00;
+	
+}
+
+
+
+.copyright
+{
+	margin-bottom: 0px;
+	padding: 20px;
+	color:#FFFFFF;
+	text-align: center;
+}
+
