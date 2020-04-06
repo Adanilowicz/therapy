@@ -133,28 +133,28 @@ a.btn:hover
 .heart
 {
 	
-	height: 130px;
-	float: right;
-	margin-top: 35px;
+	height: 100px;
+	float:right;
+	margin-top: 15px;
 	margin-bottom: 15px;
-	margin-left: 5px;
-	margin-right: 20px ;
+	margin-left: ;
+	margin-right: 15px  ;
 	
 	
 }
 
 .header-ul ul li
 {
-	margin: 5px 10px;
+	margin: 5px 5px;
 }
 
 .header-ul 
 {
-	margin-left: 20px;
-	margin-right: 10px;
-	padding: 5px;
-	float: ;
+	margin-left: 30px;
+	margin-right: ;
 	
+	float: ;
+
 }
 	
 .unstuck
