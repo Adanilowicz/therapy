@@ -160,6 +160,7 @@ a.btn:hover
 .unstuck
 {
 
+
 	color:#9900CC;
 	font-weight:500;	
 }
@@ -257,7 +258,7 @@ a.btn:hover
 {
 	padding-bottom: 25px;
 	padding-top: ;
-	background-color:#FFFFFF;
+	background-color:#b2ebf2;
 }
 
 
@@ -342,7 +343,7 @@ a.btn:hover
 {
 	border-left: 4px solid #FF6600;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 
 }
 
@@ -383,7 +384,7 @@ a.btn:hover
 .order-list
 {
 	margin-left: 30px;
-
+	
 }
 
 .help-list
@@ -398,15 +399,32 @@ a.btn:hover
 
 {
 	margin-left: 10px;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 400;
 
 }
 
+.how-help-text
+
+{
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: 400;
+
+}
 .citation
 {
 	font-size:10px;
 	font-style:italic;
+}
+
+.how-help-list
+
+{
+	margin-left: 30px;
+	font-size: 17px;
+	font-weight: 400;
+
 }
 
 .fa-hospital-o
@@ -417,6 +435,26 @@ a.btn:hover
 
 }
 
+.btn-recovery
+
+{
+	box-shadow: none;
+	padding:8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-color: #FF9900;
+	color: #FFFFFF; 
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+}
+
+.mountain
+
+{
+	float: right;
+
+}
 /*----------------------Working With Me section-----------------------*/
 #working
 {
@@ -456,6 +494,9 @@ a.btn:hover
 {
 	text-align:left;
 	margin: 4%;
+	font-size:16px;
+	font-weight: 400;
+
 }
 
 
@@ -491,7 +532,7 @@ a.btn:hover
 #about
 {
 	background:#ee6f57;
-	padding: 50px 0; 
+	padding: 20px 0; 
 	
 }
 
@@ -500,7 +541,7 @@ a.btn:hover
 .about-text 
 {
 	font-size: 16px;
-	font-weight: 450;
+	font-weight: 400;
 	margin-top: 10px;
 	text-align: left; 
 
@@ -600,7 +641,7 @@ a.btn:hover
 	border: none;
 	border-radius: 0;
 	margin-top: 30px;
-	background-color: #CCCC00;
+	background-color: #FF9900;
 	
 }
 
@@ -624,7 +665,7 @@ a.btn:hover
 
 .fograph
 {
-	margin: 5%;
+	
 }
 
 .fodiv
