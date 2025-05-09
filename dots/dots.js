@@ -2,6 +2,7 @@
 /*
  * @name EMDR
  * @description Eye Movement Desensitization and Reprocessing
+ * @author Forrest Oliphant, Alex Danilowicz
  */
 
 const ballSize = 50;
@@ -9,7 +10,7 @@ const ballSize = 50;
 let x, y, width, height;
 let button, slider;
 let speed = 1;
-let playing = true;
+let playing = false;
 let playTime = 0;
 
 let leftSound = false;
@@ -20,15 +21,29 @@ let rightSound = false;
 */
 
 function togglePlay() {
-  playing = !playing;
   playTime = millis();
-  // Toggle button label
-  button.html(playing ? "Pause" : "Play");
   // Reset position
   x = width / 2;
   // Reset sounds
   leftSound = false;
   rightSound = false;
+}
+
+function dotsPlay (newSpeed) {
+  playing = true;
+  if (newSpeed != null) {
+    speed = newSpeed;
+  }
+  togglePlay();
+}
+
+function dotsPause () {
+  playing = false;
+  togglePlay();
+}
+
+function dotsSpeed (newSpeed) {
+  speed = newSpeed;
 }
 
 /* 
@@ -42,32 +57,32 @@ function preload() {
 
 // Responsiveness: fits canvas to window
 function windowResized() {
-  width = windowWidth - 1;
-  height = windowHeight - 51;
+  width = windowWidth;
+  height = windowHeight - 175;
+  y = height / 2;
   resizeCanvas(width, height);
 }
 
 function setup() {
   windowResized();
   createCanvas(width, height);
-  slider = createSlider(0, 5, speed, 0.1);
-  button = createButton('Pause');
-  button.mousePressed(togglePlay);
-  x = ballSize;
-  y = height / 2;
+  x = width / 2;
 }
 
 // Runs once per frame of animation
 function draw() {
   background(220);
 
+  if (!playing) {
+    x = width / 2;
+  }
+
   // Draw a circle
   stroke(50);
   fill(200);
-  ellipse(x, y, ballSize, ballSize);
+  ellipse(x, y, ballSize);
 
   if (playing) {
-    speed = slider.value();
     const timeElapsed = millis() - playTime;
     const wave = sin(timeElapsed / 1000 * speed);
     // Boop left
