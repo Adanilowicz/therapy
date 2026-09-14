@@ -1,264 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Psychotherapy, EMDR, trauma-informed care and recovery support with Alex Danilowicz, LCSW, LCAS.">
-  <title>Alex Danilowicz, LCSW | Psychotherapy & EMDR</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Being in Process — Alex Danilowicz, LCSW, LCAS</title>
+<style>
+:root{--sand:#e9dfcf;--paper:#f5f1e8;--ink:#282622;--muted:#625c52;--clay:#9b6044;--rust:#70402f;--sky:#5f82a0;--sage:#737b69;--line:rgba(40,38,34,.16)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.serif,h1,h2,h3,.brand-name{font-family:Georgia,'Times New Roman',serif;font-weight:400}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid var(--line);background:rgba(245,241,232,.96);position:sticky;top:0;z-index:10}.brand{display:flex;gap:14px;align-items:center}.mark{width:38px;height:38px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-family:Georgia,serif;font-size:18px}.brand-name{font-size:19px}.brand-sub{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.navlinks{display:flex;gap:28px;font-size:13px;color:var(--muted)}.navlinks a:last-child{border-bottom:1px solid var(--ink);padding-bottom:3px;color:var(--ink)}
+.hero{min-height:720px;display:grid;grid-template-columns:1fr 1fr}.hero-copy{padding:110px 7vw 100px;display:flex;flex-direction:column;justify-content:center}.kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--clay);margin:0 0 24px}.hero h1{font-size:clamp(48px,6vw,82px);line-height:1.02;margin:0 0 30px;max-width:720px}.hero h1 em{color:var(--rust);font-style:italic}.hero p{font-size:18px;line-height:1.75;max-width:610px;color:var(--muted)}.actions{display:flex;gap:14px;margin-top:30px;align-items:center}.button{display:inline-block;padding:13px 20px;border:1px solid var(--ink);font-size:12px;letter-spacing:.08em;text-transform:uppercase}.primary{background:var(--ink);color:var(--paper)}.hero-note{font-size:12px!important;margin-top:22px;color:#777!important}.hero-photo{position:relative;min-height:720px;overflow:hidden;background:#c9bba6}.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center}.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(40,38,34,.12),transparent 35%)}
+.intro{padding:110px 8vw;background:var(--sand);display:grid;grid-template-columns:.9fr 1.3fr;gap:9vw}.intro h2,.section h2{font-size:48px;line-height:1.12;margin:0}.intro p{font-size:20px;max-width:650px;color:var(--muted);margin:0}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--clay);margin-bottom:18px}
+.full-image{width:100%;height:600px;object-fit:cover;display:block}.image-caption{padding:28px 8vw 36px;background:var(--ink);color:var(--paper);display:flex;justify-content:space-between;gap:30px;align-items:end}.image-caption h3{font-size:30px;margin:0}.image-caption p{max-width:500px;color:#d8d0c3;margin:0;font-size:15px}
+.section{padding:110px 8vw}.section-head{max-width:760px;margin-bottom:55px}.section-head p:last-child{color:var(--muted);font-size:18px}.concerns{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line)}.concern{padding:34px 28px 38px 0;border-bottom:1px solid var(--line)}.concern:nth-child(odd){padding-right:60px;border-right:1px solid var(--line)}.concern:nth-child(even){padding-left:60px}.concern h3{font-size:29px;margin:0 0 10px}.concern p{color:var(--muted);max-width:520px;margin:0}
+.modality-wrap{background:#ddd2c0;padding:100px 8vw}.modality-intro{display:grid;grid-template-columns:.8fr 1.2fr;gap:8vw;margin-bottom:50px}.modality-intro h2{font-size:46px}.modality-intro p{font-size:18px;color:var(--muted);margin-top:0}.modalities{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.mod{padding:25px 18px 25px 0;border-right:1px solid var(--line)}.mod:not(:first-child){padding-left:18px}.mod:last-child{border-right:0}.mod h3{font-size:20px;margin:0 0 8px}.mod p{font-size:13px;color:var(--muted);margin:0}
+.portal{display:grid;grid-template-columns:1.1fr .9fr;min-height:660px;background:#211d1b;color:#eee7da}.portal img{width:100%;height:100%;object-fit:cover}.portal-copy{padding:100px 8vw;display:flex;flex-direction:column;justify-content:center}.portal-copy h2{font-size:54px;line-height:1.08;margin:0 0 25px}.portal-copy p{font-size:18px;color:#cfc6b8;max-width:540px}.portal-copy .eyebrow{color:#c58c6c}
+.office{padding:110px 8vw;display:grid;grid-template-columns:1fr 1.15fr;gap:8vw;align-items:center}.office img{width:100%;display:block}.office h2{font-size:46px}.office p{color:var(--muted);font-size:17px}.about{background:var(--sage);color:#f4f0e7;padding:100px 8vw;display:grid;grid-template-columns:.8fr 1.2fr;gap:8vw}.about p{color:#e0ded5}.about h2{font-size:45px}.about .eyebrow{color:#e9c5a9}
+.cta{text-align:center;padding:115px 8vw;background:var(--sand)}.cta h2{font-size:54px;max-width:800px;margin:0 auto 25px}.cta p{color:var(--muted);font-size:18px}.footer{background:var(--ink);color:#eee7da;padding:60px 8vw;display:flex;justify-content:space-between;gap:40px}.footer small{color:#bdb4a8}.footer .button{border-color:#eee7da}
+@media(max-width:850px){.navlinks{display:none}.hero,.intro,.modality-intro,.portal,.office,.about{grid-template-columns:1fr}.hero{min-height:0}.hero-copy{padding:80px 7vw}.hero-photo{min-height:420px}.intro{gap:35px}.full-image{height:430px}.concerns{grid-template-columns:1fr}.concern:nth-child(odd){border-right:0;padding-right:0}.concern:nth-child(even){padding-left:0}.modalities{grid-template-columns:1fr 1fr}.mod{border-bottom:1px solid var(--line)}.portal-copy{padding:70px 8vw}.portal img{height:430px}.office{gap:45px}.about{gap:35px}.footer{flex-direction:column}}
+</style>
 </head>
-
 <body>
-  <header class="site-header">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="Index.html">
-            <img src="two_chairs.png" alt="">
-            <span>
-              <strong>Alex Danilowicz, LCSW, LCAS</strong>
-              <small>Psychotherapy &amp; EMDR</small>
-            </span>
-          </a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="site-nav">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a data-scroll href="#services">Approach</a></li>
-            <li><a data-scroll href="#working">Working Together</a></li>
-            <li><a data-scroll href="#about">About</a></li>
-            <li><a href="recoverymgmt.html">Recovery Management</a></li>
-            <li><a class="nav-cta" href="Schedule.html">Request an appointment</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="top">
-      <div class="container">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Psychotherapy · EMDR · Recovery</p>
-            <h1>Feeling stuck?<br><em>There is a way through.</em></h1>
-
-            <p class="hero-lede">
-              Sometimes the strategies we use to cope with pain, uncertainty, or difficult
-              experiences eventually leave us feeling less free. Therapy can help you understand
-              what is happening, make room for change, and move toward a life that feels more like your own.
-            </p>
-
-            <div class="hero-actions">
-              <a class="button button-primary" href="Schedule.html">Request an appointment</a>
-              <a class="button button-secondary" href="tel:910-240-2333">Call 910-240-2333</a>
-            </div>
-
-            <p class="hero-note">Serving adults and young adults in Wilmington, NC and through telehealth.</p>
-          </div>
-
-          <div class="hero-art">
-            <div class="art-card">
-              <img src="FingerTrap.png" alt="Illustration of a finger trap">
-            </div>
-            <div class="art-caption">
-              <span>When trying harder keeps you stuck</span>
-              <span>— we can look for another way.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="concerns section-light">
-      <div class="container">
-        <div class="section-intro">
-          <p class="eyebrow">What brings people in</p>
-          <h2>Making sense of what feels difficult.</h2>
-          <p>
-            I work with adults navigating a wide range of concerns. You don't need to have
-            everything figured out before you reach out.
-          </p>
-        </div>
-
-        <div class="concern-grid">
-          <div class="concern"><span>01</span><h3>Life &amp; relationships</h3><p>Transitions, relationship difficulties, grief, loneliness, family concerns and patterns that aren't working anymore.</p></div>
-          <div class="concern"><span>02</span><h3>Anxiety &amp; mood</h3><p>Anxiety, social anxiety, depression, difficult emotions, and the thoughts and behaviors that can keep them going.</p></div>
-          <div class="concern"><span>03</span><h3>Trauma &amp; attachment</h3><p>Trauma histories, PTSD, difficult upbringings, and the ways earlier experiences can shape life in the present.</p></div>
-          <div class="concern"><span>04</span><h3>Addiction &amp; recovery</h3><p>Substance use, behavioral addictions, recovery, and building a life that supports lasting change.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="approach-section">
-      <div class="container">
-        <div class="section-intro centered">
-          <p class="eyebrow">How I work</p>
-          <h2>Evidence-based therapy, with room for the whole person.</h2>
-          <p>
-            My approach is collaborative and integrative. We look not only at symptoms,
-            but also at the experiences, relationships, needs and patterns underneath them.
-          </p>
-        </div>
-
-        <div class="approach-grid">
-          <article class="approach-card">
-            <div class="approach-icon"><img src="issues3.png" alt=""></div>
-            <h3>Trauma-informed &amp; EMDR</h3>
-            <p>
-              I am Certified in EMDR and offer Attachment-Focused and IFS-informed EMDR
-              for clients working with trauma and complex histories. I am also certified in
-              Therapeutic Fly-Fishing EMDR, a nature-based modification using Japanese <i>tenkara</i> rods.
-            </p>
-          </article>
-
-          <article class="approach-card">
-            <div class="approach-icon"><img src="Values-sign.png" alt=""></div>
-            <h3>Integrative &amp; practical</h3>
-            <p>
-              Depending on what you need, our work may draw from Internal Family Systems,
-              Acceptance and Commitment Therapy, Motivational Interviewing, CBT,
-              mindfulness-based relapse prevention, and interpersonal and attachment-focused approaches.
-            </p>
-          </article>
-        </div>
-
-        <div class="methods">
-          <p class="methods-label">Approaches I draw from</p>
-          <div class="method-list">
-            <span>EMDR</span><span>IFS</span><span>ACT</span><span>Motivational Interviewing</span>
-            <span>CBT</span><span>Mindfulness</span><span>Attachment-focused work</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="working" class="working-section">
-      <div class="container">
-        <div class="working-layout">
-          <div>
-            <p class="eyebrow">Working together</p>
-            <h2>Finding the right fit matters.</h2>
-            <p>
-              Choosing a therapist is an important decision, especially if therapy is new to you.
-              We can start with a conversation about what you're looking for and whether I might
-              be the right person to help.
-            </p>
-            <p>
-              If I'm not the best fit, I'll do my best to point you toward trusted clinicians
-              or resources that may be more appropriate.
-            </p>
-            <a class="text-link" href="Schedule.html">Start the conversation →</a>
-          </div>
-
-          <div class="details-card">
-            <h3>Insurance &amp; rates</h3>
-            <p>
-              I currently accept NC BlueCross BlueShield, United Healthcare, Aetna,
-              NC State Health Plan (Aetna), Tricare (not Tricare Prime), and Medicare.
-            </p>
-            <p>Sessions are typically 60–90 minutes. EMDR intensive sessions may also be available when appropriate.</p>
-            <div class="rate">
-              <strong>$125</strong>
-              <span>self-pay individual therapy</span>
-            </div>
-            <p>I offer a needs-based sliding scale. Contact me to learn more.</p>
-          </div>
-        </div>
-
-        <div class="office-strip">
-          <div>
-            <p class="eyebrow">The therapy space</p>
-            <h3>A private place to slow down, think, and do the work.</h3>
-          </div>
-          <img src="office.JPG" alt="Therapy office">
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about-section">
-      <div class="container">
-        <div class="about-layout">
-          <div class="portrait-wrap">
-            <img class="portrait" src="alex_danilowicz.jpeg" alt="Alex Danilowicz">
-          </div>
-          <div class="about-copy">
-            <p class="eyebrow">About Alex</p>
-            <h2>Rooted in Wilmington. Curious about people.</h2>
-            <p>
-              I was born and raised in Wilmington, NC and am drawn to serving in my hometown.
-              I attended UNC-Chapel Hill School of Social Work in 2014, earning my MSW with a
-              clinical focus and a certificate in Substance Abuse Studies.
-            </p>
-            <p>
-              I completed my clinical internship at Duke University Counseling and Psychological
-              Services and later worked for more than three years at Hoy Recovery Program, a
-              residential treatment program in rural Northern New Mexico. That work deepened my
-              understanding of how trauma, unmet needs, social forces and history can sit beneath
-              the outer layers of mental illness and addiction.
-            </p>
-            <p>
-              I've been engaged in self-inquiry, mindfulness and meditation practices for more than
-              20 years. Outside of work, I run, make music, spend time in nature, and hang out with
-              my partner and our chihuahua-mix.
-            </p>
-            <p>
-              I am licensed for clinical social work in North Carolina and New Mexico and can provide
-              <a href="https://llr.sc.gov/TeleHealth/SocialWork.html">telemental health services in South Carolina</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="closing-cta">
-      <div class="container">
-        <img src="wingedheartbig.png" alt="" class="closing-heart">
-        <p class="eyebrow">Ready when you are</p>
-        <h2>You don't have to know exactly what you need before you reach out.</h2>
-        <p>Tell me a little about what's bringing you in. We can take it from there.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="Schedule.html">Request an appointment</a>
-          <a class="button button-light" href="mailto:alex@alexdanilowicz.com">Email Alex</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer id="footer">
-    <div class="container footer-grid">
-      <div>
-        <img src="chairs-white.png" alt="" class="footer-mark">
-      </div>
-      <div>
-        <p class="footer-label">Contact</p>
-        <p><a href="tel:910-240-2333">910-240-2333</a></p>
-        <p><a href="mailto:alex@alexdanilowicz.com">alex@alexdanilowicz.com</a></p>
-        <p>311 N. 2nd St., Ste. #2<br>Wilmington, NC 28403</p>
-      </div>
-      <div class="footer-action">
-        <a class="button button-light" href="Schedule.html">Request an appointment</a>
-      </div>
-    </div>
-    <div class="container copyright">© 2026 Alex Danilowicz, LCSW, LCAS</div>
-  </footer>
-
-  <script src="smooth-scroll.js"></script>
-  <script>
-    new SmoothScroll('a[href*="#"]');
-  </script>
-</body>
-</html>
+<nav class="nav"><a class="brand" href="#top"><span class="mark">B</span><span><span class="brand-name">Being in Process</span><br><span class="brand-sub">Alex Danilowicz · LCSW · LCAS</span></span></a><div class="navlinks"><a href="#work">How I work</a><a href="#modalities">Approaches</a><a href="#about">About</a><a href="Schedule.html">Request an appointment</a></div></nav>
+<main id="top">
+<section class="hero"><div class="hero-copy"><p class="kicker">Psychotherapy · EMDR · IFS · Recovery</p><h1>What becomes possible when you are <em>truly seen?</em></h1><p>Therapy begins with listening—really listening—to what is happening in your life, in your relationships, and within you. We don't have to know immediately what something means or where it will lead.</p><div class="actions"><a class="button primary" href="Schedule.html">Begin a conversation</a><a class="button" href="tel:910-240-2333">Call Alex</a></div><p class="hero-note">Wilmington, NC · In-person and telehealth</p></div><div class="hero-photo"><img src="assets/CanyonWalk.jpeg" alt="A trail through sandstone canyon country"></div></section>
+<section class="intro" id="work"><div><p class="eyebrow">The therapeutic relationship</p><h2>Before anything else, I listen.</h2></div><div><p>The first task isn't to apply a technique. It's to understand. What brings you here? What has been happening? What keeps repeating? What are you beginning to notice?</p><p>From there, we can become curious about the layers beneath the presenting problem—trauma, attachment, relationships, adaptations, grief, longing, and the parts of yourself that may not yet have had much room to be heard.</p></div></section>
+<img class="full-image" src="assets/EscalanteUpCanyon.jpeg" alt="Two people walking together through a broad sandstone canyon"><div class="image-caption"><div><p class="eyebrow">Being in process</p><h3>There is no map for becoming yourself.</h3></div><p>You are the one making the journey. My role is to walk alongside you, help you notice what is difficult to see alone, and stay curious about what emerges.</p></div>
+<section class="section"><div class="section-head"><p class="eyebrow">What brings people in</p><h2>Sometimes the problem is clear. Sometimes it isn't.</h2><p>You don't need to arrive with the right words—or even know exactly what you need—to begin.</p></div><div class="concerns"><article class="concern"><h3>When life feels stuck</h3><p>Transitions, relationship difficulties, loneliness, identity questions, difficult emotions, repeating patterns, or a sense that the way you've been living no longer fits.</p></article><article class="concern"><h3>When the past is still present</h3><p>Trauma, complex trauma, PTSD, attachment wounds, difficult family histories, experiences that continue to shape your body, relationships, choices, or sense of yourself.</p></article><article class="concern"><h3>When your inner world asks for attention</h3><p>Anxiety, depression, shame, disconnection, self-criticism, or parts of yourself that seem to pull in different directions.</p></article><article class="concern"><h3>When something needs to change</h3><p>Substance use, addictive behaviors, recovery, grief and loss, or the desire to build a life that feels more intentional and more fully your own.</p></article></div></section>
+<section class="modality-wrap" id="modalities"><div class="modality-intro"><div><p class="eyebrow">Core therapeutic processes</p><h2>Different ways into the work.</h2></div><p>My practice is relational and trauma-informed, with particular attention to complex trauma and attachment. The methods below are not boxes to put you in. They are ways of entering the work, chosen according to what is actually happening for you.</p></div><div class="modalities"><article class="mod"><h3>EMDR</h3><p>Trauma processing and integration, including experiences that remain emotionally or physically unresolved.</p></article><article class="mod"><h3>IFS-informed EMDR</h3><p>Trauma processing informed by the IFS perspective, with curiosity and compassion toward the parts of experience that emerge.</p></article><article class="mod"><h3>IFS</h3><p>Developing a more compassionate relationship with the different parts of yourself and the history they carry.</p></article><article class="mod"><h3>ACT</h3><p>Making room for difficult experience while becoming clearer about what matters and how you want to live.</p></article><article class="mod"><h3>Recovery Management</h3><p>Practical and relational support for substance use, recovery, and the life that recovery makes possible.</p></article></div></section>
+<section class="portal"><div class="portal-copy"><p class="eyebrow">Depth · presence · curiosity</p><h2>There may be more to the story.</h2><p>What we experience on the surface is often connected to older patterns, relationships, losses, adaptations, and ways of protecting ourselves. Therapy can create enough safety to look into those deeper places without needing to know in advance what we will find.</p><p>Being truly seen can help us develop the capacity to see, feel, and hear our own inner life with greater attunement, compassion, and clarity.</p></div><img src="assets/PhippsPortal.jpeg" alt="A sheltered sandstone alcove opening onto a vast canyon landscape"></section>
+<section class="office"><div><p class="eyebrow">The therapy space</p><h2>A real room. Two people. Time to slow down.</h2><p>Therapy happens in an actual room in downtown Wilmington. I want it to feel private, comfortable, and human—a place where there is room for honesty, silence, humor, grief, uncertainty, and whatever else needs to be present.</p><p>The relationship itself becomes part of the work.</p></div><img src="assets/office.JPG" alt="Alex Danilowicz's therapy office"></section>
+<section class="about" id="about"><div><p class="eyebrow">About Alex</p><h2>Curious about people, comfortable with complexity.</h2></div><div><p>I was born and raised in Wilmington and have been drawn for much of my life to the questions underneath the obvious ones: how people become who they are, how relationships shape us, what allows us to change, and what it means to live with greater awareness.</p><p>My clinical work has been shaped by trauma and attachment, relational psychotherapy, mindfulness, meditation, and years of self-inquiry. I completed my MSW at UNC-Chapel Hill with a certificate in Substance Abuse Studies, trained at Duke, and later worked in residential recovery treatment in Northern New Mexico.</p><p>I don't believe I need to have everything figured out in order to sit meaningfully with another person. I'm comfortable with silence, interested in complexity, and willing to explore territory that doesn't come with a map.</p></div></section>
+<section class="cta"><p class="eyebrow">Begin a conversation</p><h2>You don't have to know exactly what you need before you reach out.</h2><p>Tell me a little about what's bringing you in. We can take it from there.</p><div class="actions" style="justify-content:center"><a class="button primary" href="Schedule.html">Request an appointment</a><a class="button" href="mailto:alex@alexdanilowicz.com">Email Alex</a></div></section>
+</main><footer class="footer"><div><div class="brand-name">Being in Process</div><small>Alex Danilowicz, LCSW, LCAS · Wilmington, NC</small></div><div><a class="button" href="Schedule.html">Request an appointment</a></div></footer>
+</body></html>
